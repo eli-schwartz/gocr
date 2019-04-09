@@ -37,6 +37,8 @@ LIBOBJS=pgm2asc.o \
 # these two lines are for cross-compiling, not tested
 #srcdir = @srcdir@
 #VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
 bindir = @bindir@
 #  lib removed for simplification
 #libdir = @libdir@

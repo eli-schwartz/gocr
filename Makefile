@@ -11,8 +11,9 @@
 #
 
 prefix = /usr/local
+exec_prefix = ${prefix}
 #bindir = $(prefix)/bin
-bindir = /usr/local${exec_prefix}/bin
+bindir = ${exec_prefix}/bin
 
 SHELL = /bin/sh
 # this does not work on SuSE 6.0, why? (autoconf 2.12 do not set /bin/sh ?)

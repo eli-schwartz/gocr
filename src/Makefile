@@ -37,6 +37,8 @@ LIBOBJS=pgm2asc.o \
 # these two lines are for cross-compiling, not tested
 #srcdir = .
 #VPATH = .
+prefix = /usr/local
+exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
 #  lib removed for simplification
 #libdir = ${exec_prefix}/lib

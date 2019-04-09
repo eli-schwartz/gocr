@@ -4,6 +4,8 @@
 
 PROGRAM = gocr
 
+prefix = /usr/local
+exec_prefix = ${prefix}
 mandir = ${prefix}/share/man
 
 INSTALL=/usr/bin/install -c

@@ -4,6 +4,8 @@
 
 PROGRAM = gocr
 
+prefix = @prefix@
+exec_prefix = @exec_prefix@
 mandir = @mandir@
 
 INSTALL=@INSTALL@
