@@ -7,7 +7,6 @@ PROGRAM = gocr
 mandir = @mandir@
 
 INSTALL=@INSTALL@
-DESTDIR=@prefix@
 
 default: all
 
@@ -26,4 +25,3 @@ clean:
 	-rm -f *.o *~
 
 proper: clean
-	

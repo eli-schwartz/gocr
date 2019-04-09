@@ -5,11 +5,11 @@
 EXEEXT = 
 PROGRAM = gocr$(EXEEXT)
 # lib removed for simplification (v0.46)
-# but Igor from OSRA an optical chemical structure recognition software 
+# but Igor from OSRA an optical chemical structure recognition software
 #  wants it (v0.47 Mar09)
 PGMASCLIB = Pgm2asc
 #LIBPGMASCLIB = lib$(PGMASCLIB).a
-# ToDo: need a better pgm2asc.h for lib users 
+# ToDo: need a better pgm2asc.h for lib users
 #INCLUDEFILES = gocr.h
 # avoid german compiler messages
 LANG=C
@@ -60,7 +60,6 @@ CPPFLAGS=-Wall -g -fexceptions -DDO_DEBUG=1
 CFLAGS=-g -O2 $(CPPFLAGS) -I../include $(DEFS)
 LDFLAGS=-lm 
 LIBS=
-DESTDIR=/usr/local
 
 .SUFFIXES: .s .o .c .h
 # do not look for files if help (etc) is given
@@ -137,4 +136,3 @@ clean:
 proper: clean
 	-rm -f gocr libPgm2asc.*
 	-rm -f gocr
-	

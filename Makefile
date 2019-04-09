@@ -100,8 +100,6 @@ help:
 	@printf "make uninstall  - remove installed files from the system\n"
 
 
-# you can override this variable by: make install DESTDIR=yourpath
-DESTDIR=/usr/local
 .PHONY : install uninstall test examples
 install:
 	$(MAKE) -C src install

@@ -7,7 +7,6 @@ PROGRAM = gocr
 mandir = ${prefix}/share/man
 
 INSTALL=/usr/bin/install -c
-DESTDIR=/usr/local
 
 default: all
 
@@ -26,4 +25,3 @@ clean:
 	-rm -f *.o *~
 
 proper: clean
-	
